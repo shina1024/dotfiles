@@ -1,0 +1,28 @@
+[tools]
+bat = "latest"
+cargo-make = "latest"
+"cargo:cargo-nextest" = "latest"
+chezmoi = "latest"
+delta = "latest"
+eza = "latest"
+fd = "latest"
+fzf = "latest"
+github-cli = "latest"
+go = "latest"
+gradle = "latest"
+java = "temurin-25"
+jq = "latest"
+node = "lts"
+"npm:@openai/codex" = "latest"
+pnpm = "latest"
+python = "latest"
+ripgrep = "latest"
+ruff = "latest"
+stylua = "latest"
+tree-sitter = "latest"
+uv = "latest"
+yq = "latest"
+zoxide = "latest"
+
+[settings.python]
+uv_venv_auto = true
