@@ -9,3 +9,7 @@ if (Get-Command mise -ErrorAction SilentlyContinue) {
 if (Get-Command zoxide -ErrorAction SilentlyContinue) {
     (&zoxide init powershell) | Out-String | Invoke-Expression
 }
+
+if (Get-Command starship -ErrorAction SilentlyContinue) {
+    Invoke-Expression (&starship init powershell)
+}
