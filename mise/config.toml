@@ -1,0 +1,44 @@
+[tools]
+actionlint = "latest"
+"aqua:d-kuro/gwq" = "latest"
+bat = "latest"
+bun = "latest"
+cargo-make = "latest"
+"cargo:cargo-nextest" = "latest"
+delta = "latest"
+eza = "latest"
+fd = "latest"
+fzf = "latest"
+ghq = "latest"
+github-cli = "latest"
+go = "latest"
+gradle = "latest"
+java = "temurin-25"
+jq = "latest"
+lefthook = "latest"
+node = { version = "lts", postinstall = "npm install -g typescript-language-server typescript" }
+"npm:@openai/codex" = "latest"
+pnpm = "latest"
+python = "latest"
+rg = "latest"
+ruff = "latest"
+stylua = "latest"
+tree-sitter = "latest"
+uv = "latest"
+yq = "latest"
+zoxide = "latest"
+
+[settings]
+dotfiles.root = "~/.dotfiles"
+dotfiles.default_mode = "symlink"
+
+[settings.python]
+uv_venv_auto = true
+
+[dotfiles]
+"~/.dotfiles" = "~/src/dotfiles"
+"~/.config/mise/config.toml" = "~/src/dotfiles/mise/config.toml"
+"~/.gitconfig" = "~/src/dotfiles/.gitconfig"
+"~/AppData/Local/nvim" = "~/src/dotfiles/nvim"
+"~/.config/wezterm" = "~/src/dotfiles/wezterm"
+"~/Documents/PowerShell/profile.ps1" = "~/src/dotfiles/powershell/profile.ps1"
